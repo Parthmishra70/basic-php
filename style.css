@@ -1,0 +1,225 @@
+
+*{
+    margin-left: 0px;
+
+}
+/* siding */
+.siding{
+    display: flex;
+    flex-direction: row;
+    
+}
+/* Navigation bar */
+
+nav {
+    height: 95vh;
+    width: 25vw;
+    outline: 2px solid #ff0000;
+    border-radius: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    /* padding: 8px 1px 0px 26px; */
+    margin-left: 9px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 16px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    gap: 20px;
+}
+
+ul li img {
+    height: 30px;
+}
+
+.container {
+    height: 25vh;
+    width: 24vw;
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 10px 10px 10px 10px;
+}
+
+.main {
+    font-size: 20px;
+    padding: 21px;
+
+}
+
+
+
+.card {
+    height: 15vh;
+    max-width: 28vw;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 21px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.card p {
+    font-size: 13px;
+}
+
+.card button {
+    padding: 10px;
+    border-radius: 16px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+
+.grids_main {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.grids_place a {
+    padding: 0px;
+
+}
+
+
+.main_language {
+    padding-top: 21px;
+    padding-left: 20px;
+}
+
+.language {
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+}
+
+/* Bar */
+
+.Rcontainer{
+    /* margin-left: 10px; */
+    width: 70vw;
+
+}
+
+.bar{
+    display: flex;
+    list-style: none;
+    outline: 2px solid black;
+    margin-left: 13px;
+    height: 45px;
+    padding: 5px 30px 5px 30px;
+    justify-content: space-between;
+    margin-bottom: 3px;
+
+}
+
+
+
+.bar .arrows{
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+
+.bar img{
+    
+    height: 25px;
+}
+
+.buttons{
+display: flex;
+gap: 20px;
+}
+
+.buttons button{
+    padding: 6px 28px 5px 28px;
+    border-radius: 26px;
+    font-size: 16px;
+}
+
+
+/* Right side */
+.right{
+    display: flex;
+    margin-left: 10px;
+    padding: 15px 10px 5px 10px;
+    list-style: none;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.right .liartist{
+font-size: x-large;
+font-weight: 800;
+
+}
+
+.option{
+    display: flex;
+    justify-content: space-between;
+padding-bottom: 30px;
+}
+
+.artist{
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    /* padding: 10px 10px 10px 10px; */
+}
+
+.artistcard{
+    height: 167px;
+    width: 263px;
+    padding: 15px 10px 10px 10px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.artistcard img{
+    border-radius: 150%;
+    height: 160px;
+    width: 156px;
+
+}
+
+.nameartist{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.nameartist span{
+    font-size: 23px;
+    font-weight: 600;
+}
+.nameartist p{
+    margin: 0px;
+}
+
+.albums img{
+    border-radius: 10px;
+    /* height: 160px;
+    width: 156px; */
+}
